@@ -1,0 +1,14 @@
+#include<stdio.h>
+int area(int len, int wid){
+    int a=len*wid;
+    return a;
+}
+int main()
+{
+    int l, w;
+    printf("Enter length and width of a rectangle: ");
+    scanf("%d %d", &l, &w);
+    int a=area(l,w);
+    printf("The area of the rectangle is %d",a);
+    return 0;
+}
